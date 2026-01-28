@@ -1,5 +1,5 @@
 // 问卷配置文件
-const BATCH_ID = 'batch1';
+const BATCH_ID = 'batch2';
 
 const CONFIG = {
     // Google Sheets Web App URL（部署后填入）
@@ -107,4 +107,5 @@ function stringToSeed(str) {
     return Math.abs(hash);
 
 }
+
 
