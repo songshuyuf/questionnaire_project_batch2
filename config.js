@@ -2,6 +2,7 @@
 const BATCH_ID = 'batch2';
 
 const CONFIG = {
+    BATCH_ID: BATCH_ID,
     // Google Sheets Web App URL（部署后填入）
     GOOGLE_SHEETS_URL: 'https://script.google.com/macros/s/AKfycbz7Fm3iEnJPg53QGsFbBnzp9bdJKXMepLyT5JM9pJrP-iVyiq4seigLYt-xppKyKVU7yw/exec',
     
@@ -107,5 +108,6 @@ function stringToSeed(str) {
     return Math.abs(hash);
 
 }
+
 
 
